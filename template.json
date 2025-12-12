@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "job_title",
+        "length",
+        "tone"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nWrite a {length} cover letter for the position of {job_title}.\nThe tone should be {tone}.\nMake it concise, professional, and persuasive",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
