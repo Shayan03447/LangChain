@@ -1,0 +1,21 @@
+## why do we need structured output
+Data extraction # you can store your data in a database by using structured ouput
+
+API Building
+Agents
+
+Three ways to work for getting the response in structured
+pydantic model 
+     Default value : giving the Default value when we specify the variable
+     optional field: optional is used when you dont know the llm has this information or not 
+     Builtin validation
+     field function -> Default value, discription, constraints, regex expression
+     return pydantic object convert into json schema
+
+Type dict
+        Typedict is a way to define the dictionary in python where you specify what keys and values should exist. it helps to ensure that your dictionary follows a specific structure
+        there is no validation in it 
+        it only tells the python what keys are required and what type of  values they should have 
+        it not validate the data it just tell and help with type hint for better coding
+        [Annotated] it ensure that the type is strict 
+json schema

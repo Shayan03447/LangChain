@@ -1,0 +1,3 @@
+A retriever is a component in langchain that fetches the relevent documents from the data-source in order to response the user query 
+All retrivers in langchain are runnables
+There are many types of retrivers
